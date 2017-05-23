@@ -27,6 +27,7 @@ The goals / steps of this project are the following:
 [image10]: ./writeup_stuff/lane_lines.png "Lane lines"
 [image11]: ./writeup_stuff/draw_lanes.png "Final output image"
 [video1]: ./output_images/project_video_output.mp4 "Output video"
+
 ---
 
 ### Writeup / README
