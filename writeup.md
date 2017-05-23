@@ -160,3 +160,11 @@ Here's a [link to my video result](./output_images/project_video_output.mp4)
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
 Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+The pipeline I developed is likely to fall short:
+- When inputs from multiple camera is fed, which changes the distortion correction coefficients which are vital for next stage processing.
+- When lane lines are overshadowed by a bridge above highway.
+- The test data used so far is based on tar images, but the pipeline feed will need to be re-calibrated for concrete based highways.
+
+In order to make pipeline more robust:
+- I would like to dynamically calculate source and destination points for perspective transform.
+- Improve on measuring lane curvature more accurately.
