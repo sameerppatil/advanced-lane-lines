@@ -17,8 +17,8 @@ The goals / steps of this project are the following:
 
 [image1]: ./writeup_stuff/chess_orig.png "Original Image"
 [image2]: ./writeup_stuff/chess_undistorted.png "Undistorted Image"
-[image3]: ./writeup_stuff/straight_lines.png.png "Distortion correction"
-[image4]: ./writeup_stuff/color_binary.png.png "Color binary and combined threshold Image"
+[image3]: ./writeup_stuff/straight_lines.png "Distortion correction"
+[image4]: ./writeup_stuff/color_binary.png "Color binary and combined threshold Image"
 [image5]: ./writeup_stuff/pers1.png "Source and destination points for straight lanes"
 [image6]: ./writeup_stuff/pers2.png "Original image and Perspective transform "
 [image7]: ./writeup_stuff/pers3.png "Source and destination points for curved lanes"
